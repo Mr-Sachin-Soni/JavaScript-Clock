@@ -5,10 +5,13 @@
 }
 body {
   height: 100vh;
-  background-color: #d67e08;
+  /* background-color: #56555202; */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.main-container {
+  display: flex;
 }
 .clock {
   font-size: 4rem;
@@ -24,12 +27,24 @@ body {
 }
 .clock div {
   display: flex;
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
   width: 150px;
-  height: 130px;
-  border-radius: 5%;
+  height: 145px;
+  border-radius: 50%;
   background-color: antiquewhite;
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+#ampm {
+  display: flex;
+  position: relative;
+  font-size: 2.5rem;
+  background-color: rgba(247, 19, 19, 0.873);
+  border-radius: 50px;
+  height: 66px;
+  width: 66px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
